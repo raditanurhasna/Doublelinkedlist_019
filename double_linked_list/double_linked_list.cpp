@@ -200,10 +200,13 @@ int main() {
 			default:
 				cout << "\nInvalid option" << endl;
 				break;
-			
+
+			}
+		}
+		catch (exception& e) {
+			cout << "check for the values entered." << endl;
 
 		}
-	
 	}
 
 }
